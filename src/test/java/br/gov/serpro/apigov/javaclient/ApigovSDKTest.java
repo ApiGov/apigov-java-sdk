@@ -1,13 +1,12 @@
 package br.gov.serpro.apigov.javaclient;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import javax.ws.rs.core.Response;
 
 import org.junit.Test;
 
-import br.gov.serpro.apigov.javaclient.ApigovSDK;
-import br.gov.serpro.apigov.javaclient.Config;
 import br.gov.serpro.apigov.javaclient.exceptions.NoMethodException;
 import br.gov.serpro.apigov.javaclient.token.TokenAPI;
 
